@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import style from '../css/activeLink.module.css';
+import style from './ActiveLink.module.css';
 interface Props {
     path: string,
     text: string,
